@@ -13,6 +13,7 @@ export default function DashboardLayout({ children }: {
             <Navbar variant="floating">
                 <Navbar.Brand>
                     <AppLogo scale={0.4}/>
+                    <h1>Degrees</h1>
                 </Navbar.Brand>
                 <Navbar.Content hideIn="xs">
                     <Navbar.Link href="#">Home</Navbar.Link>
