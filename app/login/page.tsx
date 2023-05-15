@@ -1,7 +1,6 @@
 'use client';
-import { Container, Card, Row, Input, Spacer, Button, Grid, styled } from "@nextui-org/react";
+import { Container, Card, Row, Input, Spacer, Button, Grid } from "@nextui-org/react";
 import React from "react";
-
 // NextUI only works in client-side components!!!
 
 const LoginCard = () => {
@@ -42,7 +41,6 @@ const LoginCard = () => {
                 </Card.Footer>
             </Card>
         </Container >)
-
 }
 
 export default function LoginPage() {
