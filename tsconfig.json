@@ -29,7 +29,7 @@
   },
   "include": [
     "src/components",
-    "src/custom.d.ts",
+    "src/assets/svg/custom.d.ts",
     ".next/types/**/*.ts"
   ],
   "files": [
