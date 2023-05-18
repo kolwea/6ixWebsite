@@ -3,8 +3,7 @@ import React from "react";
 export const AppLogo = ({ scale }: { scale?: number }) => {
     const xScale = scale ? 46 * scale : 46
     const yScale = scale ? 87 * scale : 87
-    const viewBox = "0 0 " + xScale + yScale;
-
+    
     return (
         <svg width={xScale} height={yScale} viewBox="0 0 46 87" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d_202_691)">
