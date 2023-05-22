@@ -1,8 +1,11 @@
-import { Loader } from "@googlemaps/js-api-loader";
+'use client'
 import React, { useState, useEffect } from "react";
 import styles from "./styles.module.scss"
+import { useGoogleMaps } from "./useGoogleMaps";
 
-export const GoogleMap = ({ loader }: { loader: Loader }) => {
+export const GoogleMap = () => {
+    const { loader } = useGoogleMaps();
+
     const [mapOptions, setMapOptions] = useState<google.maps.MapOptions>({
         center: { lat: -34.397, lng: 150.644 },
         zoom: 8,
