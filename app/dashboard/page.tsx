@@ -1,6 +1,6 @@
 'use client';
 
-import { GoogleMap } from './GoogleMaps/useGoogleMaps';
+import { GoogleMap } from '../../src/server/GoogleMaps/useGoogleMaps';
 
 export default function Dashboard() {
   return (

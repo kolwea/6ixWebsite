@@ -1,7 +1,7 @@
 'use client';
 import { ReactNode } from "react";
 import React from "react";
-import SixNavigationBar from "./SixNavigationBar"
+import SixNavigationBar from "../../src/components/SixNavigationBar"
 
 export default function DashboardLayout({ children }: {
     children: ReactNode;
