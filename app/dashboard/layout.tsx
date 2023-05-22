@@ -7,7 +7,7 @@ export default function DashboardLayout({ children }: {
     children: ReactNode;
 }) {
     return (
-        <div>
+        <div className="pageWrapper">
             <SixNavigationBar />
             {children}
         </div>
