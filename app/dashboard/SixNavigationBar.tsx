@@ -4,7 +4,7 @@ import { Navbar } from "@nextui-org/react"
 import React, { ReactNode } from "react"
 import { AppLogo } from "./AppLogo";
 
-export default function SixNavigationBar({ children }: { children?: ReactNode }) {
+export default function SixNavigationBar() {
     return (
         <Navbar variant="floating" style={{ position: "fixed" }}>
             <Navbar.Brand>
