@@ -8,8 +8,8 @@ export default function SixNavigationBar() {
     return (
         <Navbar variant="floating" style={{ position: "fixed" }}>
             <Navbar.Brand>
-                <AppLogo scale={0.4} />
-                <h1 style={{ paddingLeft: "10px" }}> 6ix</h1>
+                <AppLogo scale={0.5} />
+                {/* <h1 style={{ paddingLeft: "10px" }}> 6ix</h1> */}
             </Navbar.Brand>
             <Navbar.Content>
                 <Navbar.Link href="#Home">Home</Navbar.Link>
