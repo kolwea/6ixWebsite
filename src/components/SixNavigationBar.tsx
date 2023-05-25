@@ -10,7 +10,6 @@ export default function SixNavigationBar() {
             <Navbar.Brand>
                 <AppLogo scale={0.4} />
                 {/* <h1 style={{ paddingLeft: "10px" }}> 6ix </h1> */}
-                ITS ME
             </Navbar.Brand>
             <Navbar.Content>
                 <Navbar.Link href="#Home">Home</Navbar.Link>
