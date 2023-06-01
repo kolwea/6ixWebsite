@@ -1,5 +1,4 @@
 'use client';
-
 import { Navbar } from "@nextui-org/react"
 import React from "react"
 import { AppLogo } from "./AppLogo";
@@ -17,5 +16,6 @@ export default function SixNavigationBar() {
                 <Navbar.Link href="#">Search</Navbar.Link>
                 <Navbar.Link href="#">Settings</Navbar.Link>
             </Navbar.Content>
-        </Navbar>)
+        </Navbar>
+        )
 }

@@ -1,5 +1,6 @@
 'use client';
 import { Container, Card, Row, Input, Spacer, Button, Grid } from "@nextui-org/react";
+import Image from "next/image";
 import React from "react";
 // NextUI only works in client-side components!!!
 
@@ -8,11 +9,11 @@ const LoginCard = () => {
         <Container justify="center">
             <Card css={{ height: "300px", }}>
                 <Card.Header css={{ pd: 'none' }}>
-                    <img
+                    <Image
                         alt="nextui logo"
                         src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
-                        width="34px"
-                        height="34px"
+                        width={34}
+                        height={34}
                     />
                     <Grid.Container css={{ pl: "$6" }}>
                         <Grid xs={12}>
