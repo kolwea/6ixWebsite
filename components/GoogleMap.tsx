@@ -1,10 +1,23 @@
 'use client'
 import React, { useState, useEffect } from "react";
 import styles from "./styles.module.scss"
-import { useGoogleMaps } from "./useGoogleMaps";
+
+import { Loader } from "@googlemaps/js-api-loader";
+
+const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""
+
+const useGoogleMapsApi = () => {
+    const loader = new Loader({
+        apiKey,
+        version: "weekly",
+        libraries: ["places"]
+    });
+
+    return { loader };
+}
 
 export const GoogleMap = () => {
-    const { loader } = useGoogleMaps();
+    const { loader } = useGoogleMapsApi();
 
     const [mapOptions, setMapOptions] = useState<google.maps.MapOptions>({
         center: { lat: -34.397, lng: 150.644 },

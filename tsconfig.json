@@ -28,7 +28,7 @@
     "strictNullChecks": true
   },
   "include": [
-    "src/components",
+    "components",
     "src/custom.d.ts",
     ".next/types/**/*.ts"
   ],
