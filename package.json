@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "webpack --mode=production --node-env=production",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "build:dev": "webpack --mode=development",
@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "type": "module",
+  "type": "commonjs",
   "license": "ISC",
   "dependencies": {
     "@atproto/api": "^0.2.7",
