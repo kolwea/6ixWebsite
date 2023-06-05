@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  app:
+    build: ./
+    container_name: 6ixapp
+    volumes:
+      - .:/app
+    command: npm run dev
+    environment:
+      NODE_ENV: development
+  nginx:
+    build: ./nginx
+    restart: unless-stopped
+    ports:
+      - '80:80'
+    # volumes:
+    #   - ./data:/data
+    #   - ./letsencrypt:/etc/letsencrypt
