@@ -13,7 +13,7 @@
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "noEmit": false,
     "incremental": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
@@ -28,12 +28,9 @@
     "strictNullChecks": true
   },
   "include": [
-    "src/components",
-    "src/custom.d.ts",
+    "components",
+    "types/custom.d.ts",
     ".next/types/**/*.ts"
-  ],
-  "files": [
-    "src/index.ts"
   ],
   "exclude": [
     "node_modules"

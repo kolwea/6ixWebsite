@@ -1,10 +1,8 @@
 'use client';
 
 import React from 'react';
-import { GoogleMap } from '../../src/server/GoogleMaps/GoogleMap'
+import { GoogleMap } from '../../components/GoogleMap'
 
 export default function Dashboard() {
-  return (
-    <GoogleMap />
-  )
+  return <GoogleMap />
 }

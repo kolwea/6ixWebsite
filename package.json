@@ -1,21 +1,14 @@
 {
-  "name": "my-webpack-project",
+  "name": "6ix-app",
   "version": "1.0.0",
-  "description": "My webpack project",
-  "main": "index.js",
+  "description": "6ix App",
   "scripts": {
     "dev": "next dev",
-    "build": "webpack --mode=production --node-env=production",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "@atproto/api": "^0.2.7",
     "@googlemaps/js-api-loader": "^1.15.2",
@@ -25,6 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.4.4",
     "@types/google.maps": "^3.53.1",
     "@types/node": "^18.15.11",
     "@types/react": "18.2.6",
@@ -34,6 +28,7 @@
     "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
     "eslint": "^8.38.0",
+    "eslint-config-next": "^13.4.4",
     "html-webpack-plugin": "^5.5.1",
     "mini-css-extract-plugin": "^2.7.5",
     "prettier": "^2.8.7",
