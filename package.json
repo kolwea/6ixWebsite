@@ -1,18 +1,14 @@
 {
-  "name": "my-webpack-project",
+  "name": "6ix-app",
   "version": "1.0.0",
-  "description": "My webpack project",
-  "main": "index.js",
+  "description": "6ix App",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
   "type": "commonjs",
-  "license": "ISC",
   "dependencies": {
     "@atproto/api": "^0.2.7",
     "@googlemaps/js-api-loader": "^1.15.2",
