@@ -1,10 +1,9 @@
 version: '3.8'
 services:
-  app:
+  6ixapp:
     build: 
       context: ./
       target: dev
-    container_name: 6ixApp
     volumes:
       - .:/app
     command: npm run dev
