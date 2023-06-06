@@ -3,12 +3,13 @@ services:
   app:
     build: 
       context: ./
-      target: runner
+      target: dev
     container_name: 6ixApp
     volumes:
       - .:/app
+    command: npm run dev
     environment:
-      NODE_ENV: production
+      NODE_ENV: development
   nginx:
     build: ./nginx
     restart: unless-stopped
